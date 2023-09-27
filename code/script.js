@@ -122,7 +122,7 @@ let price = "";
 // Your code goes here
 
 //10 euro chilc, 15 adult
-if (age < 17) {
+if (age <= 17) {
   age = "child";
   price = "€10";
 } else if (age < 17) {
